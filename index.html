@@ -1,4 +1,4 @@
-<!docktype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -7,13 +7,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
+        <header>
         <h1>Feliz Aniversário!</h1>
-        <p>Hoje é um dia especial, cheio de alegria e celebração. Que seu aniversário seja repleto de amor, risos e momentos inesquecíveis.</p>
+        </header>
+
+        <section id="content">
+            <img src= "c:\Users\jomar\OneDrive\Imagens\bolo_aniversario_-removebg-preview.png" alt="Bolo de Aniversário">
+
+            <audio id="musica" controls>
+      <source src="musica-aniversario.mp3" type="audio/mp3">
+            </audio>
+            
+            <p>Hoje é um dia especial, cheio de alegria e celebração. Que seu aniversário seja repleto de amor, risos e momentos inesquecíveis.</p>
         <p>Muitas felicidades, saúde, amor e sucesso no seu novo ciclo de vida. Aproveite o seu dia!</p>
         <p> Parabéns por mais um ano de vida! Que cada novo dia seja uma nova conquista para você.</p>
-    </div>
+         <button onclick="playAudio()">Tocar música</button>
+
+            </section>
+
+              <footer>
+    <p>Feito com carinho por Luis</p>
+  </footer>
+
+  <script src="scripts.js"></script>
     
 </body>
-    
 </html>
+
+ 
