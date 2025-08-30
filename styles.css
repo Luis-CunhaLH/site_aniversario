@@ -8,13 +8,13 @@ body {
 }
 
 header {
-  background-color: #0e0e0d;
+  background-color: #5e1a23;
   padding: 20px;
 }
 
 h1 {
   font-size: 3em;
-  color: #f8239f;
+  color: #000000;
 }
 
 #content {
@@ -30,7 +30,7 @@ footer {
   position: fixed;
   bottom: 10px;
   width: 100%;
-  background-color: #f8239f;
+  background-color: #5e1a23;
   padding: 10px;
 }
 
